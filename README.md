@@ -70,7 +70,7 @@ Lighthouse-driven optimization • Core Web Vitals • Bundle size optimization 
 
 <div align="center">
 
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Jaival-Suthar&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Jaival-Suthar)](https://git.io/streak-stats)
 
 </div>
 
