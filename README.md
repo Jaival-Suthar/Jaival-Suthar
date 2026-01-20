@@ -87,6 +87,7 @@ I document complex engineering challenges and distributed systems concepts on [M
 - **[JavaScript Obfuscation in Production](https://medium.com/@jaivalsuthar/when-production-exposes-your-source-code-a-deep-dive-into-javascript-obfuscation-605a903847b4)** — How pre-bundle obfuscation broke dynamic imports and the correct post-bundle transformation approach for protecting production code while maintaining functionality
 
 **Distributed Systems Design**
+- **[Dual Storage for Time: Designing Timezone-Safe Systems at Scale](https://medium.com/@jaivalsuthar/dual-storage-for-time-designing-timezone-safe-systems-at-scale-e5f76a825169)** — Architectural deep-dive into timezone coordination across distributed systems, researching patterns from Google Calendar, Stripe, and Microsoft Outlook to build dual-storage architecture handling DST transitions, midnight boundaries, and cross-timezone collaboration
 - **[API Contract Validation](https://medium.com/@jaivalsuthar/when-apis-lie-lessons-from-a-validation-failure-in-a-distributed-system-8f75d8a89f08)** — Three-layer validation failure analysis caused by contract drift between backend, service layer, and UI components, and the architectural patterns that prevent silent failures
 - **[Prefetching at Scale: Instagram's Caching Strategy](https://medium.com/@jaivalsuthar/prefetching-at-scale-why-instagram-works-without-internet-a-deep-dive-into-predictive-caching-b58fc8332c4e)** — Deep dive into multi-tiered cache hierarchies, predictive prefetching, speculative execution, and resource constraint optimization in distributed systems
 - **[Collaborative Editing: Google Docs Architecture](https://medium.com/@jaivalsuthar/what-google-docs-taught-us-about-building-the-impossible-3d1f3bcdb2e6)** — Operational transformation, multi-leader replication, conflict resolution strategies, and how eventual consistency enables real-time collaboration at scale
@@ -111,7 +112,7 @@ Open to discussions around **frontend architecture**, **system design**, **perfo
 Interested in high-impact engineering problems, strong ownership, and systems that matter.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaival-suthar-57195b257/)
-[![X](https://img.shields.io/badge/-X-000000?style=flat&logo=x&logoColor=white)](https://x.com/CodeFromIndia)
+[![X](https://img.shields.io/badge/-X-000000?style=flat&logo=x&logoColor=white)](https://x.com/Jaival_Suthar)
 [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@jaivalsuthar)
 
 ---
