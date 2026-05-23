@@ -1,10 +1,10 @@
 # Jaival Suthar
 
-Software Engineer building **production-grade systems** with a focus on scalability, reliability, and long-term maintainability.
+Software Engineer focused on frontend architecture, performance engineering, backend systems, and developer tooling.
 
-Currently architecting and evolving the frontend of a **mission-critical internal platform** that powers daily operations for cross-functional teams. My work spans frontend architecture, system design at the UI layer, defensive engineering patterns, and cross-stack collaboration to deliver reliable end-to-end experiences.
+Currently building scalable web platforms and async workflows using React, TypeScript, Node.js, Redis, and AWS, with a strong focus on system reliability, runtime performance, and production debugging.
 
-I combine hands-on delivery with continuous investment in **Data Structures & Algorithms** and **System Design**, applying foundational principles directly to real-world engineering challenges.
+Creator of **PerfEngine**, a performance regression analysis engine for JavaScript and TypeScript codebases that detects potential regressions in pull requests using AST analysis, diff-aware scanning, deterministic issue fingerprinting, and baseline-aware regression detection.
 
 ---
 
@@ -29,40 +29,37 @@ I combine hands-on delivery with continuous investment in **Data Structures & Al
 
 ## 🎯 Engineering Focus
 
-**Architecture & Systems**  
-Scalable React architectures • Component design patterns • State management strategies • UI-layer system design • Clean service contracts • Predictable data flows • Contract-driven development
+• Frontend Architecture & Runtime Performance
 
-**Quality & Reliability**  
-Defensive UI patterns • Structured error handling • Test-driven development • CI/CD integration • Performance optimization • Standards compliance • Production hardening
+• Performance Engineering & Core Web Vitals
 
-**Collaboration & Impact**  
-Cross-functional delivery • Code reviews • Architectural discussions • Technical mentorship • Engineering best practices • Technical writing
+• Async Systems & Distributed Workflows
 
-**Performance Engineering**  
-Lighthouse-driven optimization • Core Web Vitals • Bundle size optimization • Code splitting strategies • UX consistency • Load time optimization • Runtime performance
+• Backend APIs & System Reliability
+
+• Developer Tooling & CI/CD
+
+• Production Debugging & Observability
 
 ---
 
-## 💼 Impact & Contributions
+## 💼 Highlights
 
-**Platform Architecture & Delivery**
-- Architected and evolved the frontend of a production-grade internal platform supporting mission-critical workflows for cross-functional teams
-- Designed and delivered complex UI domains: data-heavy tables, form-driven workflows, calendar-based analytics, and role-aware navigation flows
-- Established scalable React architecture standards that enabled faster, safer feature development as system complexity increased
+• Reduced production JavaScript bundle size by 62% (893KB → 337KB) through dependency optimization, route-level code splitting, and lazy loading
 
-**Performance & Quality Leadership**
-- **Reduced production bundle size by 62%** (893KB → 337KB) through strategic dependency replacement and route-level code splitting, improving initial load times by ~30%
-- Drove frontend performance benchmarks to **95+ Lighthouse scores** while maintaining full Best Practices compliance across all metrics
-- Implemented **JavaScript obfuscation pipeline** for production deployments, protecting intellectual property while maintaining bundle efficiency (~20% size increase tradeoff)
-- Introduced comprehensive testing strategy using React Testing Library and Vitest, improving release confidence during rapid iteration
-- Led CI/CD adoption with GitHub Actions for frontend deployments, reducing deployment friction and enabling continuous delivery
+• Achieved 95+ Lighthouse Performance and 100 Best Practices
 
-**Cross-Stack Collaboration & System Design**
-- **Designed and enforced API contract validation** between frontend and backend services, eliminating silent contract violations that caused production validation failures
-- Defined frontend–backend service contracts in close partnership with backend engineers, ensuring reliable data exchange and predictable error handling
-- Built structured error handling pipeline across service, parent, and UI layers, enabling field-level validation feedback and reducing user friction
-- Contributed to engineering quality through code reviews, refactoring initiatives, and architectural discussions
-- Mentored peers on component design, testing strategies, and system-level thinking
+• Built automated resume parsing workflows leveraging PDF.js's Web Workers, reducing manual data entry effort by 70%
+
+• Designed async job processing pipelines using Redis and BullMQ
+
+• Developed audit logging systems with indexed querying and paginated retrieval APIs
+
+• Engineered WhatsApp-based candidate sharing workflows using AWS S3, CloudFront, Redis queues, and the WhatsApp Business API
+
+• Implemented CI/CD workflows and maintained 80%+ test coverage using GitHub Actions, Vitest, Jest, and React Testing Library
+
+• Built PerfEngine, a static performance regression detection engine for JavaScript and TypeScript pull requests
 
 ---
 
@@ -78,19 +75,16 @@ Lighthouse-driven optimization • Core Web Vitals • Bundle size optimization 
 
 ## ✍️ Technical Writing & Systems Thinking
 
-I document complex engineering challenges and distributed systems concepts on [Medium](https://medium.com/@jaivalsuthar), exploring the intersection of practical implementation and fundamental computer science principles:
+I write engineering articles focused on performance optimization, distributed systems, production debugging, and system design.
+**Recent Articles**
+- **[Designing a Production-Grade Async Job Queue with Redis and BullMQ](https://jaivalsuthar.hashnode.dev/production-grade-async-job-queue-redis-bullmq)** 
+- **[Lessons from Building a Production PDF Parser with Web Workers](https://jaivalsuthar.hashnode.dev/lessons-from-building-a-production-pdf-parser-with-web-workers)**
+- **[Memory Profiling a Production React App](https://jaivalsuthar.hashnode.dev/memory-profiling-a-production-react-app-a-data-driven-investigation)**
+- **[Dual Storage for Time: Designing Timezone-Safe Systems at Scale](https://jaivalsuthar.hashnode.dev/dual-storage-for-time-designing-timezone-safe-systems-at-scale)**
+- **[Debugging a Silent Validation Failure in Production](https://jaivalsuthar.hashnode.dev/debugging-a-silent-validation-failure-in-production)**
+- **[How I Reduced Our React Bundle by 62%](https://jaivalsuthar.hashnode.dev/how-i-reduced-our-react-bundle-by-62-lessons-in-real-world-performance-engineering)**
 
-**Performance Engineering**
-- **[Bundle Optimization: 62% Size Reduction](https://medium.com/@jaivalsuthar/how-i-reduced-our-react-bundle-by-62-a-junior-developers-optimization-journey-e0f5a2ca6ee6)** — Systematic approach to React bundle optimization, including the failure mode of over-aggressive code splitting (+90% size increase) and recovery through strategic route-level lazy loading
-
-**Production Engineering**
-- **[JavaScript Obfuscation in Production](https://medium.com/@jaivalsuthar/when-production-exposes-your-source-code-a-deep-dive-into-javascript-obfuscation-605a903847b4)** — How pre-bundle obfuscation broke dynamic imports and the correct post-bundle transformation approach for protecting production code while maintaining functionality
-
-**Distributed Systems Design**
-- **[Dual Storage for Time: Designing Timezone-Safe Systems at Scale](https://medium.com/@jaivalsuthar/dual-storage-for-time-designing-timezone-safe-systems-at-scale-e5f76a825169)** — Architectural deep-dive into timezone coordination across distributed systems, researching patterns from Google Calendar, Stripe, and Microsoft Outlook to build dual-storage architecture handling DST transitions, midnight boundaries, and cross-timezone collaboration
-- **[API Contract Validation](https://medium.com/@jaivalsuthar/when-apis-lie-lessons-from-a-validation-failure-in-a-distributed-system-8f75d8a89f08)** — Three-layer validation failure analysis caused by contract drift between backend, service layer, and UI components, and the architectural patterns that prevent silent failures
-- **[Prefetching at Scale: Instagram's Caching Strategy](https://medium.com/@jaivalsuthar/prefetching-at-scale-why-instagram-works-without-internet-a-deep-dive-into-predictive-caching-b58fc8332c4e)** — Deep dive into multi-tiered cache hierarchies, predictive prefetching, speculative execution, and resource constraint optimization in distributed systems
-- **[Collaborative Editing: Google Docs Architecture](https://medium.com/@jaivalsuthar/what-google-docs-taught-us-about-building-the-impossible-3d1f3bcdb2e6)** — Operational transformation, multi-leader replication, conflict resolution strategies, and how eventual consistency enables real-time collaboration at scale
+➡️ Full blog: https://jaivalsuthar.hashnode.dev
 
 ---
 
@@ -113,7 +107,7 @@ Interested in high-impact engineering problems, strong ownership, and systems th
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaival-suthar-57195b257/)
 [![X](https://img.shields.io/badge/-X-000000?style=flat&logo=x&logoColor=white)](https://x.com/Jaival_Suthar)
-[![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@jaivalsuthar)
+[![Engineering Blog](https://img.shields.io/badge/-Hashnode-2962FF?style=flat&logo=hashnode&logoColor=white)](https://jaivalsuthar.hashnode.dev/)
 
 ---
 
